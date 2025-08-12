@@ -1,6 +1,6 @@
 # SEO Toolbox
 
-A collection of useful Python scripts designed for SEO professionals who want to make their job a little bit easier and more effective.
+A collection of useful Python scripts designed for SEO professionals who want to make their job a little bit easier and more effective. Crafted with love by the team of JetOctopus' developers.
 
 ## Overview
 
@@ -8,8 +8,8 @@ This toolbox contains specialized scripts that address common SEO challenges and
 
 ## Available Tools
 
-### [AI Bots Checker]
-**JetOctopus AI Bots Testing Tool** - Test website accessibility for different AI bot user agents
+### AI Bots Checker
+**AI Bots Testing Tool** - Test website accessibility for different AI bot user agents
 
 - **Purpose**: Verify if AI crawlers can actually access your website
 - **Key Features**:
