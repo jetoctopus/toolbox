@@ -24,18 +24,18 @@ This creates a gap between **intended policy** and **actual access**, making it 
 
 **AI Bot Access Checker** helps SEO professionals and website owners verify whether AI bots can actually access their websites. Rather than relying solely on `robots.txt` files, this tool performs real-world testing by:
 
-🤖 **Testing Multiple AI Bot User Agents**
+**Testing Multiple AI Bot User Agents**
 - OpenAI (GPTBot, ChatGPT-User, OAI-SearchBot)
 - Anthropic (ClaudeBot, Claude-User)  
 - Perplexity (PerplexityBot, Perplexity-User)
 
-🔍 **Comprehensive Analysis**
+**Comprehensive Analysis**
 - HTTP status codes (200, 403, 429, etc.)
 - `robots.txt` compliance checking
 - Meta robots tag analysis (including `noindex` detection)
 - Response times and performance metrics
 
-✅ **Real-World Results**
+**Real-World Results**
 - Tests from your actual network environment
 - Reveals discrepancies between policy and reality
 - Shows exactly what each AI bot encounters
@@ -94,21 +94,21 @@ This output reveals that while your `robots.txt` allows GPTBot, it's actually be
 
 ### Common Scenarios
 
-**🔒 CDN/Firewall Blocking**
+**CDN/Firewall Blocking**
 ```
 Status Code: 403
 Robots.txt: Allowed
 → Bot blocked at infrastructure level despite robots.txt permission
 ```
 
-**📋 Policy-Based Blocking**
+**Policy-Based Blocking**
 ```
 Status Code: 200  
 Robots.txt: Blocked
 → Proper robots.txt compliance, bot respects disallow rules
 ```
 
-**🏷️ Content-Level Blocking**
+**Content-Level Blocking**
 ```
 Status Code: 200
 Robots.txt: Allowed
